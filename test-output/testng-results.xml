@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61227" started-at="2018-05-22T10:09:33Z" finished-at="2018-05-22T10:10:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61227" started-at="2018-05-22T10:09:33Z" finished-at="2018-05-22T10:10:34Z">
+      <class name="tests.AdminLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AdminLoginTest@27f723]" name="setup" is-config="true" duration-ms="43880" started-at="2018-05-22T10:09:33Z" finished-at="2018-05-22T10:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLoginTest_InvalidUserNameInvalidPassword()[pri:0, instance:tests.AdminLoginTest@27f723]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="8028" started-at="2018-05-22T10:10:17Z" finished-at="2018-05-22T10:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
+        <test-method status="PASS" signature="invalidLoginTest_EmptyUserEmptyPassword()[pri:1, instance:tests.AdminLoginTest@27f723]" name="invalidLoginTest_EmptyUserEmptyPassword" duration-ms="749" started-at="2018-05-22T10:10:25Z" finished-at="2018-05-22T10:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_EmptyUserEmptyPassword -->
+        <test-method status="PASS" signature="validLoginTest_EmptyUserEmptyPassword()[pri:2, instance:tests.AdminLoginTest@27f723]" name="validLoginTest_EmptyUserEmptyPassword" duration-ms="3184" started-at="2018-05-22T10:10:26Z" finished-at="2018-05-22T10:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest_EmptyUserEmptyPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.AdminLoginTest@27f723]" name="teardown" is-config="true" duration-ms="5239" started-at="2018-05-22T10:10:29Z" finished-at="2018-05-22T10:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AdminLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
